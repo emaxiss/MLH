@@ -7,7 +7,9 @@ describe('Checking the main functionality', function () {
 
         it('TC-021 Create button is clickable after 1-4 are filled in', function () {
             browser.url('');
-            const name = $(sel.name).isDisplayed();
+            let name = $(sel.name);
+            name.addValue("LadyBug");
+
             expect(name).toEqual(true);
         });
 
