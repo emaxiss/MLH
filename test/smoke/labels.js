@@ -61,11 +61,12 @@ describe('My Little Hero', function () { //define suite title by passing a strin
 
     });
 
-    /*describe('Header', function () {
+    describe('Header', function () {
 
-        it('TC-010 Label for header = What is your HERO\'s name?', function () {
-            const text = $$('.ant-form-item-required')[0].getAttribute('title');
-            expect(text).toEqual(exp.labelName);
-        });*/
+        it('TC-010 Label for header = My Little Hero', function () {
+            const text = $(sel.header).getText();
+            expect(text).toEqual(exp.header);
+        });
+    });
 
 });
