@@ -1,5 +1,6 @@
 {
   "label": ".ant-form-item-required",
+  "picLabel": "//label[@title = '5. Upload an image (optional)']",
   "name": "#name",
   "gender": ".ant-radio",
   "age": "#age",
