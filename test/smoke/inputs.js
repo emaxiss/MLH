@@ -42,5 +42,10 @@ describe('My Little Hero', function () {
         });
 
     });
-   // describe('Placeholders are correct' function)
+   describe('Placeholders are correct', function () {
+        it('TC-021 Name', function () {
+            const placeholder = $(sel.name).getAttribute('placeholder');
+            expect(placeholder).toEqual(exp.placeholderName);
+        });
+    })
 })
