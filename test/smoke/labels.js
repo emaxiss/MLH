@@ -73,7 +73,12 @@ describe('My Little Hero', function () { //define suite title by passing a strin
 
     describe('Header', function () {
 
-        it('TC-010 Label for header = My Little Hero', function () {
+        it('TC-012 Label for header', function () {
+            const text = $(sel.header).isDisplayed();
+            expect(text).toEqual(true);
+        });
+
+        it('TC-013 Label for header = My Little Hero', function () {
             const text = $(sel.header).getText();
             expect(text).toEqual(exp.header);
         });
