@@ -17,7 +17,9 @@
     "@wdio/mocha-framework": "^6.6.7",
     "@wdio/selenium-standalone-service": "^6.6.5",
     "@wdio/spec-reporter": "^6.6.8",
-    "@wdio/sync": "^6.6.7"
+    "@wdio/sync": "^6.6.7",
+    "chromedriver": "^87.0.2",
+    "wdio-chromedriver-service": "^6.0.4"
   },
   "dependencies": {
     "@babel/cli": "^7.12.1",
